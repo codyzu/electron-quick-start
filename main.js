@@ -1,3 +1,5 @@
+// const app = require('app')
+// const BrowserWindow = require('browser-windows')
 const electron = require('electron')
 // Module to control application life.
 const app = electron.app
@@ -13,7 +15,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({width: 800, height: 600})
 
   // and load the index.html of the app.
-  mainWindow.loadURL(`file://${__dirname}/index.html`)
+  mainWindow.loadURL(`file://${__dirname}/index2.html`)
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools()

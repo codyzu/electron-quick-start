@@ -1,0 +1,6 @@
+{
+  "application/javascript": {
+    "presets": ["react"],
+    "sourceMaps": "inline"
+  }
+}
